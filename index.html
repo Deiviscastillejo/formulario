@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Matrícula</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Formulario de Matrícula</h1>
+        
+        <form id="formMatricula">
+            <div class="form-group">
+                <label for="nombre">Nombre completo:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+
+            <div class="form-group">
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" id="correo" name="correo" required>
+            </div>
+
+            <div class="form-group">
+                <label for="direccion">Dirección:</label>
+                <input  type="direccion" id="direccion" name="correo" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="carrera">Programa a cursar:</label>
+                <select id="carrera" name="carrera" required>
+                    <option value="">Seleccione una carrera...</option>
+                    <option value="Enfermería">Enfermería</option>
+                    <option value="Ingeniería de Sistemas">Ingeniería de Sistemas</option>
+                    <option value="Especialización en Docencia">Especialización en Docencia</option>
+                    <option value="Ingeniería Industrial">Ingeniería Industrial</option>
+                    <option value="TECNOLOGÍA EN ATENCIÓN PREHOSPITALARIA">TECNOLOGÍA EN ATENCIÓN PREHOSPITALARIA</option>
+                    <option value="LICENCIATURA EN ESPAÑOL E INGLÉS">LICENCIATURA EN ESPAÑOL E INGLÉS</option>
+                    <option value="Licenciatura en Educación Infantil">Licenciatura en Educación Infantil</option>
+                    <option value="Licenciatura en Educación Religiosa">Licenciatura en Educación Religiosa</option>
+                    <option value="Licenciatura en Música">Licenciatura en Música</option>
+                    <option value="TEC. EN ATENCIÓN PREHOSPITALARIA EXTENSIÓN BUCARAMANGA">TEC. EN ATENCIÓN PREHOSPITALARIA EXTENSIÓN BUCARAMANGA</option>
+                    <option value="TEOLOGÍA">TEOLOGÍA</option>
+                    <option value="CONTADURÍA PÚBLICA">CONTADURÍA PÚBLICA</option>
+                    <option value="ADMINISTRACIÓN DE EMPRESAS">ADMINISTRACIÓN DE EMPRESAS</option>
+                    <option value="MAESTRÍA EN EDUCACIÓN">MAESTRÍA EN EDUCACIÓN</option>
+                    <option value="MARKETING Y COMUNICACIÓN DIGITAL">MARKETING Y COMUNICACIÓN DIGITAL</option>
+                    <option value="MAESTRÍA EN ESTUDIOS RELIGIOSOS Y TEOLOGÍA">MAESTRÍA EN ESTUDIOS RELIGIOSOS Y TEOLOGÍA</option>
+                    <option value="ESPECIALIZACIÓN EN ALTA GERENCIA">ESPECIALIZACIÓN EN ALTA GERENCIA</option>
+                    <option value="MAESTRÍA EN ESTUDIOS RELIGIOSOS Y TEOLOGÍA VIRTUAL">MAESTRÍA EN ESTUDIOS RELIGIOSOS Y TEOLOGÍA VIRTUAL</option>
+                </select>
+            </div>
+
+            <button type="submit">Enviar Matrícula</button>
+        </form>
+
+        <h2>Registros Guardados</h2>
+        <table id="tablaRegistros">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Correo</th>
+                    <th>Dirección</th>
+                    <th>Carrera</th>
+                    <th>Acción</th>
+                </tr>
+            </thead>
+            <tbody>
+             
+            </tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

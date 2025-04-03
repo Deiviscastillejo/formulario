@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBjAc2QPEdF8VDUdqyMzE38NXJMxRFvo6lsg&s'); /* URL de la imagen */
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    min-height: 100vh; 
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    width: 50%;
+    margin: auto;
+    background: rgb(125, 232, 230);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 17, 0, 0.1);
+    margin-top: 30px;
+}
+
+
+.form-group {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, select, textarea {
+    width:500px;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse:collapse;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 1%;
+    text-align: center;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+}
+
+
+button.eliminar {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+button.eliminar:hover {
+    background-color: darkred;
+}
